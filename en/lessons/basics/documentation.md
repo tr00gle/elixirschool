@@ -56,7 +56,7 @@ end
 ```
 
 We (or others) can access this module documentation using the `h` helper function within IEx.
-To check that - put the contents of the previous snippet to `greeter.ex` file in the same directory you started IEx from, and run it there:
+We can see this for ourselves if we put our `Greeter` module into a new file, `greeter.ex` and compile it:
 
 ```elixir
 iex> c("greeter.ex")
